@@ -7,12 +7,28 @@
 h1 {
     background-color: bisque;
     text-align: left;
+    border-bottom:1px solid #000;
 }
 
 .col-md-7{
     margin-top: 130px;
     border: thick solid black;
+    background-color: cornsilk;
    }
 
 
+.name, .email{
+    width: 100%;
+    border: 3px solid black
+    
+}
 
+
+.email{
+
+}
+
+
+.messages{
+
+}
