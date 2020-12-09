@@ -1,0 +1,18 @@
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: bisque;
+    text-align: left;
+}
+
+.col-md-7{
+    margin-top: 130px;
+    border: thick solid black;
+   }
+
+
+
