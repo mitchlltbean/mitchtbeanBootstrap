@@ -17,18 +17,20 @@ h1 {
    }
 
 
-.name, .email{
+input[type=text], textarea{
     width: 100%;
     border: 3px solid black
     
 }
 
 
-.email{
-
+img {
+    margin-top: 10px;
+    padding: 10px;
 }
 
 
-.messages{
-
+.section{
+    margin-top: 100px;
 }
+
