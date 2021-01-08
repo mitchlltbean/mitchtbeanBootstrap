@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="Html">
   <head>
     <title>Mitchellbean</title>
     <meta charset="UTF-8" />
@@ -26,7 +26,7 @@
         <div class="hero-head">
           <nav class="navbar">
             <div class="container">
-              <a id="my-title" href="#home">Mitchell Bean</a>
+              <a id="game-title" href="#home">Mitchell Bean</a>
 
               <!-- <a id="game-title" onclick="href='/index.html'" href="/index.html">HTML Tutorial</h1> -->
 
@@ -53,19 +53,20 @@
       <!-- major info section below  -->
 
       <!-- <section class="section"></section> -->
-        <div class="container-fluid" id="page-container2">
+        <div class="container" id="page-container2">
           <div class="columns">
-            <div class="column is-half is-offset-one-quarter">
+            <div class="column is-half is-offset-one-eigth">
               <h1>About Me</h1>
               <!-- use pull left command below to get text to wrap -->
               <img
-                src="https://www.boutiquebonboeuf.com/wp-content/uploads/2016/07/placeholder-beef.jpg"
+                src="https://media-exp1.licdn.com/dms/image/C4E03AQFvmlgfVVJYhQ/profile-displayphoto-shrink_100_100/0/1610085364186?e=1615420800&v=beta&t=gk5B8Bl9HsVYmxbG6dNpUwW64yHL3uMozl1f4TnWUv0"
                 class="profilepic"
                 alt="image of Mitchell Bean"
+            
                 
               />
 
-              Hello my name is Mitchell Bean and I am currently enrolled in the
+              <p id="bio-content">Hello my name is Mitchell Bean and I am currently enrolled in the
               coding bootcamp through Trilogy industries. I hope to complete the
               class within four months and further my oppurtunities to land a
               job in the technology field.
@@ -79,15 +80,25 @@
               <br />
               <br />
               My current portfolio contains my work on our first group project and two homeworks from the class.
+              </p>
             </div>
-          <div class="columns">
-            <div class="column is-4 is-offset-8">
+         
+          <!-- <div class="columns"> -->
+            <div class="column is-offset-one-quarter" id="contactColumn">
+                <h1>Contact</h1>
+                <h1>Mitchtroybean@gmail.com</h1>
+                <a class="navbar-item" href="portfolio.html"> Portfolio </a>
+        
+                <a class="navbar-item" href="https://github.com/mitchlltbean/"> Github Profile </a>
+                
+                <a class="navbar-item" href="https://www.linkedin.com/in/mitchell-bean-2619541b8/">LinkedIn Profile</a>
+
 
             </div>
-          </div>
+          <!-- </div> -->
         </div>
-      </section>
     </div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="bulma.js"></script>
 </html>

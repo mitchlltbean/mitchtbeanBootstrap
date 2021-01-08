@@ -57,15 +57,17 @@
 } */
 
 h1 {
-  background-color: bisque;
+  background-color: #92643b;;
   text-align: left;
   border-bottom: 1px solid #000;
+  color: white !important;
+  width: 100%;
 }
 
 .col-md-7 {
   margin-top: 130px;
   border: thick solid black;
-  background-color: cornsilk;
+  background-color: #92643b;
 }
 
 input[type="text"],
@@ -77,6 +79,7 @@ textarea {
 img {
   margin-top: 10px;
   padding: 10px;
+  
 }
 
 /* .section {
@@ -89,13 +92,34 @@ img {
 
   }
 
+#contactColumn {
+    margin-top: 10px;
+}
 
 #contact{
   justify-content: right;
 }
 
 .profilepic {
-    width: 100%;
+    width: 50%;
   height: auto;
 
+}
+
+body {
+    background: linear-gradient(45deg, rgb(153, 153, 153), #000000);
+}
+
+#game-title {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 37px;
+    color: #fffaf0;
+    letter-spacing: 1.5px;
+  }
+
+.column {
+    color: white !important;
 }
