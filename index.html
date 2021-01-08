@@ -1,97 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Mitchellbean</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-
-<body>
-    
+  <body>
     <!--main conatiner  -->
-<div class="container-fluid">
-       
-        <nav class="navbar">
-            <header class="header"><h1>Mitchell Bean</h1></header>
-             
-            <div class="row">
-                
-
-                
-                
-                <ul class="navlist">
-                    
-<!--  navigation links below-->
-                    
-                        <li class="nav-item">
-                        <a href="contact.html" target="_self" title="link to contacts">Contact</a>
-                        </li>
-                    
-
-                    
-                        <li class="nav-item">
-                        <a href="portfolio.html" target="_self" title="link to portfolio">portfolio</a>
-                        </li>
-                    
-                    
-                    
-                    
-                        <li class="nav-item">
-                        <a href="index.html" target="_self" title="link to home">Home/About</a>
-                        </li>
-                    
-                </ul>
-            </div>
-        </nav>
-        <!-- major info section below  -->
-    
-    
-        <section class="section">
+    <div class="container-fluid">
+      <section class="hero is dark-is-small sectionFlavor">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+          <nav class="navbar">
             <div class="container">
-              <div class="row">
-                <div class="col-md-7">
-                    <h1>About Me</h1>
-                    <!-- use pull left command below to get text to wrap -->
-                    <img src="https://www.boutiquebonboeuf.com/wp-content/uploads/2016/07/placeholder-beef.jpg" class="pull-left" alt="image of steak" width="300" height="300">
-                    
-                    
-                    Hello my name is Mitchell Bean and I am currently enrolled in the coding bootcamp through Trilogy industries. I hope to complete the class within four months and further my oppurtunities to land a job in the technology field.
-                    <br>
-                    <br>
-                    <br>
-                    If I am am not studying I like to spend time first with my wife and daughter. After that i enjoy cooking Steak, playing pc games, and golfing.
-                    <br>
-                    <br>
-                    <br>
-                    My current portfolio contains some of my favorite cuts of meat that I like to cook. Hopefully over time I can replace those images with some technologies you find enticing.
-                    
+              <a id="my-title" href="#home">Mitchell Bean</a>
 
-                </div>
-                
-                
-                    
-                <div class="col-md-5">
+              <!-- <a id="game-title" onclick="href='/index.html'" href="/index.html">HTML Tutorial</h1> -->
+
+              <div class="navbar-brand">
+                <span class="navbar-burger" data-target="navbarMenuHeroA">
+                  <span class="burger-item"></span>
+                  <span class="burger-item"></span>
+                  <span class="burger-item"></span>
+                </span>
+              </div>
+
+              <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-end">
+                  <a class="navbar-item" href="index.html"> About/Contact </a>
+
+                  <a class="navbar-item" href="portfolio.html"> Portfolio </a>
+
                 </div>
               </div>
             </div>
-        </section>
-    
+          </nav>
+        </div>
+      </section>
+      <!-- major info section below  -->
 
+      <!-- <section class="section"></section> -->
+        <div class="container-fluid" id="page-container2">
+          <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+              <h1>About Me</h1>
+              <!-- use pull left command below to get text to wrap -->
+              <img
+                src="https://www.boutiquebonboeuf.com/wp-content/uploads/2016/07/placeholder-beef.jpg"
+                class="profilepic"
+                alt="image of Mitchell Bean"
+                
+              />
+
+              Hello my name is Mitchell Bean and I am currently enrolled in the
+              coding bootcamp through Trilogy industries. I hope to complete the
+              class within four months and further my oppurtunities to land a
+              job in the technology field.
+              <br />
+              <br />
+              <br />
+              If I am am not studying I like to spend time first with my wife
+              and daughter. After that i enjoy cooking Steak, playing pc games,
+              and golfing.
+              <br />
+              <br />
+              <br />
+              My current portfolio contains my work on our first group project and two homeworks from the class.
+            </div>
+          <div class="columns">
+            <div class="column is-4 is-offset-8">
+
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-        
-
-
-
-
-
-    
-
-
-
-
-
-</body>
+  </body>
+  <script src="bulma.js"></script>
 </html>

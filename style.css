@@ -1,47 +1,101 @@
-
-body{
-    
-    background-image: url(https://static.bhphoto.com/images/images500x500/Photoflex_DP_MCK003_10x20_Grey_BackDrop_1247134714_622595.jpg);
-    
+/*Navbar*/
+.hero-head {
+  background-color: #92643b;
+  /* background-color:#333333; */
+  height: 5em;
 }
 
-
-
-
-.navlist {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar-item {
+  font-size: 25px;
+  color: white;
+  background-color: #92643b;
 }
+
+.sectionFlavor {
+  min-height: 15vh;
+}
+
+#my-title{
+    font-size: 35px;
+  color: white;
+  background-color: #92643b;
+
+}
+
+.navbar-item:hover {
+  background-color: #b52e2c !important;
+  color: white !important;
+}
+
+.navbar-burger {
+  background-color: #ba8759;
+  right: 0;
+  top: 0;
+  position: absolute;
+  max-width: 100%;
+}
+
+/* .navbar-burger:hover{
+    background-color: #B52E2C !important;
+  } */
+
+.navbar-end {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* body {
+  background-image: url(https://static.bhphoto.com/images/images500x500/Photoflex_DP_MCK003_10x20_Grey_BackDrop_1247134714_622595.jpg);
+} */
+
+/* .navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */
 
 h1 {
-    background-color: bisque;
-    text-align: left;
-    border-bottom:1px solid #000;
+  background-color: bisque;
+  text-align: left;
+  border-bottom: 1px solid #000;
 }
 
-.col-md-7{
-    margin-top: 130px;
-    border: thick solid black;
-    background-color: cornsilk;
-   }
-
-
-input[type=text], textarea{
-    width: 100%;
-    border: 3px solid black
-    
+.col-md-7 {
+  margin-top: 130px;
+  border: thick solid black;
+  background-color: cornsilk;
 }
 
+input[type="text"],
+textarea {
+  width: 100%;
+  border: 3px solid black;
+}
 
 img {
-    margin-top: 10px;
-    padding: 10px;
+  margin-top: 10px;
+  padding: 10px;
 }
 
+/* .section {
+  margin-top: 100px;
+} */
 
-.section{
-    margin-top: 100px;
+#page-container2 {
+    position: relative;
+    min-height: 100vh;
+
+  }
+
+
+#contact{
+  justify-content: right;
 }
 
+.profilepic {
+    width: 100%;
+  height: auto;
 
+}
