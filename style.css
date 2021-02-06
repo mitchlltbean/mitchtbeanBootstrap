@@ -15,11 +15,10 @@
   min-height: 15vh;
 }
 
-#my-title{
-    font-size: 35px;
+#my-title {
+  font-size: 35px;
   color: white;
   background-color: #92643b;
-
 }
 
 .navbar-item:hover {
@@ -57,7 +56,7 @@
 } */
 
 h1 {
-  background-color: #92643b;;
+  background-color: #92643b;
   text-align: left;
   border-bottom: 1px solid #000;
   color: white !important;
@@ -79,7 +78,8 @@ textarea {
 img {
   margin-top: 10px;
   padding: 10px;
-  
+  border: #000;
+  border-radius: 10px;
 }
 
 /* .section {
@@ -87,39 +87,37 @@ img {
 } */
 
 #page-container2 {
-    position: relative;
-    min-height: 100vh;
-
-  }
-
-#contactColumn {
-    margin-top: 10px;
+  position: relative;
+  min-height: 100vh;
 }
 
-#contact{
+#contactColumn {
+  margin-top: 10px;
+}
+
+#contact {
   justify-content: right;
 }
 
 .profilepic {
-    width: 50%;
+  width: 50%;
   height: auto;
-
 }
 
 body {
-    background: linear-gradient(45deg, rgb(153, 153, 153), #000000);
+  background: linear-gradient(45deg, rgb(153, 153, 153), #000000);
 }
 
 #game-title {
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    font-size: 37px;
-    color: #fffaf0;
-    letter-spacing: 1.5px;
-  }
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 37px;
+  color: #fffaf0;
+  letter-spacing: 1.5px;
+}
 
 .column {
-    color: white !important;
+  color: white !important;
 }
